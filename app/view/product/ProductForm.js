@@ -40,7 +40,7 @@ Ext.define('MyApp.view.product.ProductForm', {
         me.buttons = [{
             text: 'Отмена',
             handler: function() {
-                MyApp.show('main'); // Возврат в главное окно
+                MyApp.show('main'); // В главное окно
             }
         }, {
             text: 'Сохранить',
@@ -52,7 +52,6 @@ Ext.define('MyApp.view.product.ProductForm', {
                 me.record.set('price', values.price);
                 me.record.set('quantity', values.quantity);
 
-                // Возвращаемся в главное окно
                 MyApp.show('main');
             }
         }];
