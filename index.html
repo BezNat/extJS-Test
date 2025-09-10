@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Ext JS</title>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>    -->
+    <!-- ✅ Стили: тема Triton -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all.css">
+
+    <!-- ✅ Ядро Ext JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
+
+    <style>
+        .numZero {
+            background-color: #cb1111 !important; /* Светло-красный фон */
+            font-weight: bold !important;
+        }
+        </style>
+</head>
+<body>
+    <!-- Модели -->
+    <script src="app/model/Product.js"></script>
+
+    <!-- Хранилища -->
+    <script src="app/store/Product.js"></script>
+
+    <!-- Виды -->
+    <script src="app/view/login/Login.js"></script>
+    <script src="app/view/login/LoginContainer.js"></script>
+
+    <script src="app/view/product/ProductFilter.js"></script>
+    <script src="app/view/product/ProductTable.js"></script>
+    <script src="app/view/product/ProductForm.js"></script>
+    <script src="app/view/product/ProductTab.js"></script>
+    <script src="app/view/product/ProductContainer.js"></script>
+
+    <script src="app/view/main/Main.js"></script>
+
+    <script src="app/view/login/LoginController.js"></script>
+    <script src="app/view/main/MainController.js"></script>
+    <script src="app/view/product/ProductController.js"></script>
+
+    <!-- Приложение -->
+    <script src="app.js"></script>
+</body>
+</html>
