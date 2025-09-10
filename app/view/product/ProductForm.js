@@ -8,10 +8,6 @@ Ext.define('MyApp.view.product.ProductForm', {
 
     initComponent: function() {
         var me = this;
-        console.log('ProductForm record:', me.record);
-        if (!me.record) {
-            console.error('ProductForm: record не передан');
-            return;
         }
         // Принимаем запись
         me.items = [
