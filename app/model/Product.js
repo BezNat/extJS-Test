@@ -3,7 +3,7 @@ Ext.define('MyApp.model.Product', {
     // alias: 'model.product',
 
     fields: [
-        // { name: 'id', type: 'int' },
+        { name: 'id', type: 'int' },
         { name: 'name', type: 'string' },
         { name: 'description', type: 'string' },
         { name: 'price', type: 'float' },
